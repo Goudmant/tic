@@ -1,0 +1,57 @@
+header {
+    height:95px;
+    width:100%;
+    min-width:0px;
+    display:table;
+    color:#ffffff;
+    background-color:black;
+    text-align:center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+}
+#tout {
+    margin-top: 15px;
+    
+}
+body{font-family:arial;
+}
+h3{color:#758DAC}
+#tout{width:100%; background-color:#CCC;padding: 12px 10px 10px;}
+#tout label {
+display: block;
+}
+#tout input {
+width: 250px;
+padding: 4px;
+border: 1px solid #555;
+}
+#tout input[type="submit"] {
+width: 250px;
+padding: 4px 15px;
+background: #555;
+color: #fff;
+cursor: pointer;
+border-right: 4px solid #555;
+}
+#tout input[required] {
+border-right: 4px solid orange;
+}
+#tout input:invalid {
+border-right: 4px solid red;
+}
+#tout input:valid {
+border-right: 4px solid green;
+}
+#tout input[type="submit"] {
+width: 250px;
+padding: 4px 15px;
+background: #555;
+color: #fff;
+cursor: pointer;
+border-right: 8px solid #555;
+}
+
+
+
+
