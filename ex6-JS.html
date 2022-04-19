@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS EX6</title>
+    <script src="./ex6-JS.js"></script>
+    <style>
+        body {
+            font-family: monospace;
+            height: 100%; 
+        }
+        .horloge {
+            width: 100%;
+            text-align: center;
+            margin-top: 200px;
+        }
+        .data {
+            border-style: solid;
+            border-style: 1px;
+            border-color: black;
+            padding:10px;
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        flash {
+            color:red;
+        
+        }
+    </style>
+</head>
+
+<body onload="changeHeure()" onload="flash();">
+    <div class="horloge">
+        <span class="data" id="horloge" id="flash"></span>
+    </div>
+</body>
